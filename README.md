@@ -1,4 +1,4 @@
-# Docker with Laravel + MySql + Nginx
+# Docker with Laravel 5.7.* + MySql + Nginx
 
 This repository contains all the needed code to run Laravel in Docker
 
