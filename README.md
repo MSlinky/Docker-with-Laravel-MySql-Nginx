@@ -38,4 +38,17 @@ generate encryption key and save the configuration:
   docker-compose exec app php artisan config:cache
 ```
 
+Stop containers:
+
+```
+  docker stop <name>
+```
+
+Delete all containers:
+
+```
+  docker rmi $(docker images -q)
+  docker rm $(docker ps -a -q)
+```
+
 [Reference](https://ricardogeek.com/configurar-laravel-nginx-y-mysql-con-docker-compose/)
