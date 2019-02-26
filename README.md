@@ -20,8 +20,6 @@ This repository contains all the needed code to run Laravel in Docker
 2. Run the docker compose script:
 
 ```
-  cd laravel-app
-  docker run --rm -v $(pwd):/app composer install
   docker-compose up -d
 ```
 
