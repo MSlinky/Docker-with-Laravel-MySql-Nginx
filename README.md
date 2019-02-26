@@ -49,4 +49,10 @@ Delete all containers:
   docker rm $(docker ps -a -q)
 ```
 
+Enter the bash of the container:
+
+```
+  docker-compose exec <name> bash
+```
+
 [Reference](https://ricardogeek.com/configurar-laravel-nginx-y-mysql-con-docker-compose/)
